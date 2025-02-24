@@ -1,0 +1,38 @@
+header {
+    background-color: #343a40; /* Dark background color */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #ffffff; /* White font color */
+}
+
+nav {
+    margin-top: 10px;
+}
+
+.nav-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list li {
+    margin: 0 15px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #ffffff; /* White font color */
+    font-weight: bold;
+}
+
+.nav-list a:hover {
+    text-decoration: underline;
+}
